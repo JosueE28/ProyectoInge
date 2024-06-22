@@ -6,24 +6,26 @@
 
 .titulo{
     margin-top: 125px;
-    margin-left: 75px;
+    margin-left: 150px;
 }
 
 input{
     height: 200px;
     width: 500px;
-    margin-left: 75px;
     margin-top: 40px;
     border-radius: 5px;
+    background-color: #E1DDD6;
+    
 }
 
 button{
     margin-top: 20px;
-    margin-left: 75px;
+    margin-left: 150px;
     height: 40px;
     width: 70px;
     border-radius: 5px;
     background-color:#FFBE53 ;
+    border: 0;
 }
 
 button:hover{
@@ -31,3 +33,10 @@ button:hover{
 }
 
 
+#logousu{
+    width: 100px;
+    height: 60px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+
+}

@@ -9,21 +9,17 @@
 <body>
     <header>
         <nav>
-
             <h2>Cocina y Variedades Veronica</h2>
             <ul>
-                <li><a href="">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="pedidos.html">Pedidos</a></li>
                 <li><a href="feedback.html">Feedback</a></li>
             </ul>
             <div width="100px"></div>
-
         </nav>
         <div class="main-header">
             <div class="sub-main-header1">
-
-                
                 <label class="logo-texto1">Prueba los mejores platillos de Panamá Oeste</label>
                 <span class="logo-texto2"> 
                     ¡Bienvenido al lugar donde la comida habla por sí sola! En nuestro restaurante, 
@@ -31,18 +27,15 @@
                 </span>
             </div>
             <div class="sub-main-header2">
-
-                    <img id="logo" src="images/logo.png" alt="">
-
+                <img id="logo" src="images/logo.png" alt="">
             </div>
         </div>
     </header>
     
     <main>
-
         <div class="menu-imagenes2">
             <img src="images/back.png" class="imagenes2" id="back">
-            <div  class="menu-imagenes">
+            <div class="menu-imagenes">
                 <img src="images/platillo1.png" class="imagenes">
                 <img src="images/platillo2.png" class="imagenes">
                 <img src="images/platillo3.png" class="imagenes">           
@@ -51,29 +44,23 @@
                 <img src="images/platillo6.png" class="imagenes">
             </div>
             <img src="images/next.png" class="imagenes2" id="next">
-
         </div>
-
     </main>
-
 
     <script>
         let scrollmenu = document.querySelector('.menu-imagenes');
         let back = document.getElementById('back');
         let next = document.getElementById('next');
 
-
         back.addEventListener('click', () =>{
             scrollmenu.style.scrollBehavior = 'smooth';
             scrollmenu.scrollLeft -=200;
-        })
+        });
 
         next.addEventListener('click', () =>{
             scrollmenu.style.scrollBehavior = 'smooth';
-
             scrollmenu.scrollLeft +=200;
-        })
+        });
     </script>
-
 </body>
 </html>

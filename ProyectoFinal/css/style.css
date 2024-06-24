@@ -148,23 +148,3 @@ main {
     }
 }
 
-.navbar-custom {
-  background-color: #FFA500; /* Color anaranjado */
-}
-.menu-item {
-  text-align: center;
-  padding: 10px;
-}
-.menu-item img {
-  width: 100%;
-  height: auto;
-}
-.highlight {
-  background-color: #FFA500;
-  padding: 20px;
-}
-.discount {
-  text-align: center;
-  font-size: 2rem;
-  color: #FFA500;
-}
